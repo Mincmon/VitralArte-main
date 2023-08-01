@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.contato {
+    background-color: #106EEA;}
+
+
+.contato .container {
+    justify-content: flex-start;
+    height: 35px;
+}
+
+.contato .container a {
+    font: 500 30px 'OpenSans Regular';
+    color: white;
+    margin-right: 40px;
+}
+
+.logo .nome {
+    font: 700 40px 'Poppins Bold';
+}
+
+.menu a {
+    font: 500 22px 'OpenSans Regular';
+    color: black;
+    margin-left: 60px;
+}
+
+.inicio {
+    background-image: url(Img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+}
+
+.inicio .container {
+    justify-content: flex-end;
+    height: 400px;
+}
+
+.titulo-inicio {
+    font: 700 50px 'Poppins Bold';
+}
+
+.texto-inicio {
+    font: 500 26px 'Poppins Regular';
+}
+
+.titulo {
+    font: 700 30px 'Roboto Bold';
+color: black;
+}
+
+span {
+    color: #106EEA;
+}
+
+.texto {
+    font: 500 20px 'OpenSans Regular';
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.sobreNos .imagem img {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.sobreNos .conteudo .texto {
+    text-align: justify;
+}
+
+.sobreNos .contato {
+    margin-right: 100px;
+}
+
+.infos .quadrados .quadrado img {
+    width: 100px;
+}
+
+.infos .quadrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quadrado {
+    background-color: #f1f6fe;
+    border: 1px solid #8ca9ce;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 50px;
+    width: 230px;
+}
+
+.divisao {
+    background-color: #1150a3;
+    height: 2px;
+}
+
+.servicos .container {
+    flex-direction: column;
+}
+
+.servico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servico .servico-titulo {
+    font: 700 24px 'Roboto Bold';
+    text-align: center;
+}
+
+.servico .servico-nome {
+    border: 2px solid #8ca9ce;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.equipe .container {
+    flex-direction: column;
+}
+
+.equipe .pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe .pessoas .pessoa {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25px;
+}
+
+.equipe .conteudo .texto {
+    text-align: justify;
+}
+
+.formulario .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereco {
+    width: 200px;
+    border: 3px solid #1150a3;
+    height: 350px;
+    text-align: center;
+    padding: 60px 10px;
+}
+
+input {
+    height: 60px;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+textarea {
+background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    background-color: #106EEA;
+    color: white;
+    font: 700 20px 'Roboto Bold';
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+main section,main .conteudo,.divisao {
+    margin-bottom: 80px;
+}
